@@ -646,8 +646,8 @@ class EnhancedPet:
                 self.pet_velocities[j][1] = temp_v2y
                 
                 # Add a little push to separate them
-                push_x = math.cos(angle) * 2
-                push_y = math.sin(angle) * 2
+                push_x = math.cos(angle) * 30
+                push_y = math.sin(angle) * 30
                 
                 self.pet_velocities[i][0] -= push_x
                 self.pet_velocities[i][1] -= push_y
